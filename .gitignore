@@ -1,0 +1,25 @@
+# --- PyCharm (JetBrains) Settings ---
+# Ignore personal workspace settings and local history
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionary.xml
+.idea/shelf/
+.idea/caches/
+
+# Do NOT ignore the entire .idea folder if you want to share run configurations.
+# However, if you are the only developer or prefer clean repositories, you can block it all:
+# .idea/
+
+# --- Python Build & Cache Artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# --- Local Environments ---
+.venv/
+node_modules/
+.env
+
